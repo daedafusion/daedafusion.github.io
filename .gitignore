@@ -19,3 +19,6 @@ target/
 #Jekyll
 _pages/
 _site/
+
+venv
+dependencies.dot
