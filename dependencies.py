@@ -121,6 +121,8 @@ if __name__ == '__main__':
            dir='forward',
            arrowhead='halfopen')
 
+    add_relationship_edge(g, 'configuration', 'jetcd', '1.1-SNAPSHOT')
+
     add_relationship_edge(g, 'service-framework', 'configuration', '1.1-SNAPSHOT')
 
     add_relationship_edge(g, 'cache', 'service-framework', '1.0')
